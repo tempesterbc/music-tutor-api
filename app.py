@@ -13,6 +13,7 @@ Endpoints
 Run locally:  uvicorn app:app --reload --port 8000
 """
 import base64
+import gc
 import io
 import os
 import tempfile
@@ -73,8 +74,9 @@ def _plot_b64(student, corridor, name):
     ax[-1].set_xlabel("position through the piece (%)")
     plt.tight_layout()
     buf = io.BytesIO()
-    plt.savefig(buf, format="png", dpi=110)
+    plt.savefig(buf, format="png", dpi=95)
     plt.close(fig)
+    gc.collect()
     return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
 
 

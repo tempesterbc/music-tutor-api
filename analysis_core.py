@@ -19,7 +19,7 @@ import numpy as np
 import librosa
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 
-SR = 22050
+SR = 16000
 HOP = 512
 A4 = 440.0
 FRAME_RATE = SR / HOP   # ~43.07 feature frames per second
@@ -30,38 +30,56 @@ def load_audio(path, sr=SR):
     return y
 
 
-def extract(path_or_y, sr=SR):
-    """Return dict of per-frame features (all same length T) + frame times."""
+def _roll_median(x, k=5):
+    """NaN-aware rolling median - removes isolated octave errors from yin."""
+    out = np.full_like(x, np.nan)
+    h = k // 2
+    for i in range(len(x)):
+        seg = x[max(0, i - h): i + h + 1]
+        seg = seg[~np.isnan(seg)]
+        if len(seg):
+            out[i] = np.median(seg)
+    return out
+
+
+def extract(path_or_y, sr=SR, max_seconds=45):
+    """Return dict of per-frame features. Uses the FAST path (yin + chroma_stft
+    at 16 kHz) so it runs in a few seconds even on a small CPU."""
     if isinstance(path_or_y, str):
         y = load_audio(path_or_y, sr=sr)
     else:
         y = np.asarray(path_or_y, dtype=float)
+    if len(y) > max_seconds * sr:            # cap very long uploads
+        y = y[: max_seconds * sr]
 
-    chroma = librosa.feature.chroma_cqt(y=y, sr=sr, hop_length=HOP)
-    f0, _, _ = librosa.pyin(
-        y, sr=sr, fmin=float(librosa.note_to_hz("C2")),
-        fmax=float(librosa.note_to_hz("C7")), hop_length=HOP)
-    cents = np.full_like(f0, np.nan)
-    ok = ~np.isnan(f0)
-    cents[ok] = 1200.0 * np.log2(f0[ok] / A4)
+    chroma = librosa.feature.chroma_stft(y=y, sr=sr, hop_length=HOP)
 
+    # fast pitch: yin (no probabilistic matrix); gate voicing by energy
+    f0 = librosa.yin(y, sr=sr, fmin=float(librosa.note_to_hz("C2")),
+                     fmax=float(librosa.note_to_hz("C7")),
+                     frame_length=2048, hop_length=HOP)
     rms = librosa.feature.rms(y=y, hop_length=HOP)[0]
+    n = min(len(f0), len(rms), chroma.shape[1])
+    f0, rms, chroma = f0[:n], rms[:n], chroma[:, :n]
+    voiced = rms > (0.06 * (rms.max() + 1e-9))
+    cents = np.full(n, np.nan)
+    ok = voiced & (f0 > 0)
+    cents[ok] = 1200.0 * np.log2(f0[ok] / A4)
+    cents = _roll_median(cents, 5)           # kill isolated octave jumps
+
     db = 20.0 * np.log10(rms + 1e-6)
-    db = db - np.nanmedian(db)                       # relative dynamics
+    db = db - np.nanmedian(db)
 
-    centroid = librosa.feature.spectral_centroid(y=y, sr=sr, hop_length=HOP)[0]
-    centroid = 12.0 * np.log2(np.maximum(centroid, 1e-6) / A4)   # log scale
-    flatness = librosa.feature.spectral_flatness(y=y, hop_length=HOP)[0]
-    flatness = 10.0 * np.log10(flatness + 1e-9)      # dB: higher = noisier/breathier
-
-    voiced = ~np.isnan(cents)
-    # tone features are only meaningful while a note sounds
-    centroid = np.where(voiced, centroid, np.nan)
-    flatness = np.where(voiced, flatness, np.nan)
+    centroid = librosa.feature.spectral_centroid(y=y, sr=sr, hop_length=HOP)[0][:n]
+    centroid = 12.0 * np.log2(np.maximum(centroid, 1e-6) / A4)
+    flatness = librosa.feature.spectral_flatness(y=y, hop_length=HOP)[0][:n]
+    flatness = 10.0 * np.log10(flatness + 1e-9)
+    centroid = np.where(np.isnan(cents), np.nan, centroid)
+    flatness = np.where(np.isnan(cents), np.nan, flatness)
 
     onset_f = librosa.onset.onset_detect(y=y, sr=sr, hop_length=HOP,
                                          backtrack=False, wait=8, delta=0.03)
-    T = min(len(x) for x in (chroma[0], cents, db, centroid, flatness))
+    T = min(chroma.shape[1], len(cents), len(db), len(centroid), len(flatness))
     times = librosa.frames_to_time(np.arange(T), sr=sr, hop_length=HOP)
     onset_f = onset_f[onset_f < T]
     return {"chroma": chroma[:, :T], "cents": cents[:T], "db": db[:T],

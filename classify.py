@@ -75,9 +75,9 @@ def classify(student, corridor, pros):
     specs = [
         ("intonation", "cents", "cents_mean", "cents_std", 20.0, ("sharp", "flat"), "cents"),
         ("dynamics", "db", "db_mean", "db_std", 4.0, ("louder", "softer"), "dB"),
-        ("tone", "centroid", "centroid_mean", "centroid_std", 1.3,
+        ("tone", "centroid", "centroid_mean", "centroid_std", 2.4,
          ("brighter/harsher", "duller/covered"), "st"),
-        ("timbre", "flatness", "flatness_mean", "flatness_std", 3.0,
+        ("timbre", "flatness", "flatness_mean", "flatness_std", 4.5,
          ("breathier/airier", "more pressed/edgy"), "dB"),
     ]
     for cat, key, mk, sk, floor, (hi, lo), unit in specs:
@@ -95,6 +95,17 @@ def classify(student, corridor, pros):
                              "pos_pct": (100.0 * a / n, 100.0 * b / n),
                              "value": "%+.0f %s" % (d, unit),
                              "severity": abs(d) / (floor if floor else 1)})
+    # keep only the most significant findings per category/direction so the
+    # report stays concise (avoids six near-identical "brighter tone" rows)
+    from collections import defaultdict
+    _by = defaultdict(list)
+    for f in findings:
+        _by[(f["category"], f["label"])].append(f)
+    kept = []
+    for group in _by.values():
+        group.sort(key=lambda f: abs(f.get("severity", 1.0)), reverse=True)
+        kept.extend(group[:2])
+    findings = kept
     findings.sort(key=lambda f: f["pos_pct"][0])
 
     summary = {"tempo_ratio": student["times"][-1] / corridor["times"][-1]}
