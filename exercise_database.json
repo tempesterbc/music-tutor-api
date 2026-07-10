@@ -1,0 +1,1023 @@
+{
+  "exercises": [
+    {
+      "exercise": "Long Tones",
+      "category": "Breath & Air Control",
+      "instrument": "All winds, brass, voice",
+      "primary": "Breath support; steady airstream; tone consistency",
+      "secondary": "Pitch stability, dynamic control, embouchure endurance, intonation awareness",
+      "how": "Hold a single note as long as possible with steady pitch and volume; increase duration and vary dynamics over time.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Diaphragmatic (Belly) Breathing",
+      "category": "Breath & Air Control",
+      "instrument": "Winds, brass, voice",
+      "primary": "Deep breath intake; diaphragm engagement",
+      "secondary": "Relaxation, sustained phrases, reduced chest/throat tension",
+      "how": "Hand on belly, hand on chest; inhale so only the belly rises. Trains efficient, low breathing.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Timed/Counted Air Release (Sizzle)",
+      "category": "Breath & Air Control",
+      "instrument": "Winds, brass, voice",
+      "primary": "Controlled exhalation rate; breath pacing",
+      "secondary": "Phrase endurance, fast full inhalation",
+      "how": "Inhale quickly and fully, then release air over 10/15/20 counts (often on a hissed 'sss'). Trains the diaphragm and metered air release.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Straw Breathing / Pursed-Lip Resistance",
+      "category": "Breath & Air Control",
+      "instrument": "Winds, brass, voice",
+      "primary": "Air pressure regulation against resistance",
+      "secondary": "Lung capacity, simulates instrument back-pressure",
+      "how": "Inhale/exhale slowly through a straw or pursed lips; the resistance forces steady regulation of air pressure.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Breathing Bag Exercise",
+      "category": "Breath & Air Control",
+      "instrument": "Brass (esp. tuba/euphonium), winds",
+      "primary": "Air volume awareness; large-capacity breathing",
+      "secondary": "Physical feedback on lung capacity",
+      "how": "Blow a full breath into a breathing bag to visualize/feel how much air you have available.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Circular Breathing",
+      "category": "Breath & Air Control",
+      "instrument": "Winds (sax, oboe, didgeridoo, etc.)",
+      "primary": "Continuous tone without pauses",
+      "secondary": "Extended phrasing, cheek/air-pocket control",
+      "how": "Inhale through the nose while pushing stored cheek air out through the mouth; practiced on long tones, then staccato and intervals.",
+      "difficulty": "Advanced"
+    },
+    {
+      "exercise": "Interval Breathing (Scales with Breath Focus)",
+      "category": "Breath & Air Control",
+      "instrument": "Winds, brass",
+      "primary": "Coordinating breathing with note changes",
+      "secondary": "Phrase planning, stamina",
+      "how": "Play scales/arpeggios while consciously managing where and how you breathe.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Mouthpiece Buzzing",
+      "category": "Tone & Embouchure",
+      "instrument": "Brass",
+      "primary": "Embouchure formation; pitch centering",
+      "secondary": "Ear-to-lip connection, warm-up conditioning",
+      "how": "Buzz pitches, sirens, and simple tunes on the mouthpiece alone to isolate lip vibration from the instrument.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Free (Lip) Buzzing",
+      "category": "Tone & Embouchure",
+      "instrument": "Brass",
+      "primary": "Lip control and gentle strength building",
+      "secondary": "Useful during embouchure changes (e.g., braces)",
+      "how": "Buzz the lips gently with no mouthpiece to build fine control of the vibrating surface.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Lip Slurs / Lip Flexibilities",
+      "category": "Tone & Embouchure",
+      "instrument": "Brass",
+      "primary": "Embouchure flexibility; airstream manipulation; moving between partials",
+      "secondary": "Range, tone quality, register connection, corner strength",
+      "how": "Slur between notes of the overtone series on one fingering/position; expanding patterns (e.g., Bai Lin, Irons, Remington).",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Overtone Series Studies",
+      "category": "Tone & Embouchure",
+      "instrument": "Brass, flute, saxophone",
+      "primary": "Fine mouth/oral-cavity and air control; harmonic awareness",
+      "secondary": "Range, resonance, voicing (esp. flute harmonics & sax overtones)",
+      "how": "Produce upper partials on a fixed fingering; on flute/sax, overblowing low fingerings to sound harmonics trains voicing and air speed.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Lip Trills",
+      "category": "Tone & Embouchure",
+      "instrument": "Brass",
+      "primary": "Rapid partial alternation; embouchure agility",
+      "secondary": "Upper-register control, endurance",
+      "how": "Rapidly alternate between two adjacent partials using air and embouchure only.",
+      "difficulty": "Advanced"
+    },
+    {
+      "exercise": "Pedal Tones / Low Register Flapping",
+      "category": "Tone & Embouchure",
+      "instrument": "Brass",
+      "primary": "Embouchure relaxation; recovery from stiffness",
+      "secondary": "Blood flow, tension release after heavy playing",
+      "how": "Play very low, loose notes ('horse flap' feel) to relax facial muscles; lower pitch = more release.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Crescendo\u2013Decrescendo Long Tones",
+      "category": "Tone & Embouchure",
+      "instrument": "Winds, brass",
+      "primary": "Embouchure strength with tone stability across dynamics",
+      "secondary": "Dynamic control, intonation across volumes",
+      "how": "Slow long tones starting soft, swelling to loud, returning to soft while keeping pitch and tone constant.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Flute Harmonics / Embouchure Flexibility",
+      "category": "Tone & Embouchure",
+      "instrument": "Flute",
+      "primary": "Lip flexibility; soft high-register control",
+      "secondary": "Sound quality, sensitivity, avoiding pinching high notes",
+      "how": "Slur between harmonics and register changes using only lip movement (not force), teaching the lip to 'get' all the notes.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Lip Trills / Lip Rolls (Vocal)",
+      "category": "Vocal Technique",
+      "instrument": "Voice",
+      "primary": "Breath-tone coordination; tension release",
+      "secondary": "Diaphragm engagement, gentle vocal fold warm-up, high-note ease",
+      "how": "Blow air through loosely closed lips ('brrr') on slides, scales, or melodies; balances airflow and fold vibration.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Humming",
+      "category": "Vocal Technique",
+      "instrument": "Voice",
+      "primary": "Resonance placement; gentle fold activation",
+      "secondary": "Forward tone, relaxed throat, warm-up/cool-down",
+      "how": "Hum on comfortable pitches and glides; feel vibration in the 'mask' (face/nasal bones).",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Sirens / Pitch Glides (Glissando)",
+      "category": "Vocal Technique",
+      "instrument": "Voice",
+      "primary": "Register blending (chest\u2013mix\u2013head); range stretching",
+      "secondary": "Smooth passaggio, flexibility, throat relaxation",
+      "how": "Glide continuously from lowest to highest range and back on 'oo'/'ng', covering all pitches in between.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Straw Phonation (SOVT)",
+      "category": "Vocal Technique",
+      "instrument": "Voice",
+      "primary": "Efficient vocal fold vibration; breath-to-sound coordination",
+      "secondary": "Strain reduction, vocal recovery/health",
+      "how": "Sing through a narrow straw (or 'vvv'/'zzz'); semi-occluded tract creates back-pressure that aligns fold vibration.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Messa di Voce",
+      "category": "Vocal Technique",
+      "instrument": "Voice (also winds/strings)",
+      "primary": "Dynamic control on a single pitch; CT/TA muscle coordination",
+      "secondary": "Breath management, expressive palette, technical stability",
+      "how": "Sustain one note: crescendo from soft to full, then decrescendo back, keeping pitch and tone quality constant.",
+      "difficulty": "Advanced"
+    },
+    {
+      "exercise": "Vowel Shaping Exercises (Ah/Eh/Ee/Oh/Oo)",
+      "category": "Vocal Technique",
+      "instrument": "Voice",
+      "primary": "Consistent tone across vowels; articulation and timbre control",
+      "secondary": "Diction, resonance consistency, breath support",
+      "how": "Sing scales/single pitches on each open vowel, keeping mouth shape, tone, and support consistent.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Nay/Gee ('Twang') Exercises",
+      "category": "Vocal Technique",
+      "instrument": "Voice",
+      "primary": "Resonance and forward placement; powerful high notes",
+      "secondary": "Range, control, mix-voice strength",
+      "how": "Sing nasal 'ney'/'gee' sounds on scales/triads to engage twang resonance for high-note power.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Yawn-Sigh Technique",
+      "category": "Vocal Technique",
+      "instrument": "Voice",
+      "primary": "Throat/jaw tension release; soft palate lift",
+      "secondary": "Open resonant space, natural breath support",
+      "how": "Simulate a relaxed yawn then sigh downward, creating open space in the back of the mouth.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Tongue Twisters / Diction Drills",
+      "category": "Vocal Technique",
+      "instrument": "Voice",
+      "primary": "Articulation (teeth, tongue, lips, jaw)",
+      "secondary": "Clarity, projection, reduced articulator tension",
+      "how": "Speak/sing phrases like 'red leather, yellow leather' at increasing speeds.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Tongue Trills (Rolled R)",
+      "category": "Vocal Technique",
+      "instrument": "Voice",
+      "primary": "Airflow steadiness; pitch control while moving",
+      "secondary": "Fold-breath balance for intermediate+ singers",
+      "how": "Roll an 'r' while gliding up and down the range; requires connected, steady breath.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Solf\u00e8ge Singing (Do-Re-Mi)",
+      "category": "Vocal Technique",
+      "instrument": "Voice / all musicians",
+      "primary": "Pitch accuracy; scale-degree awareness",
+      "secondary": "Vocal agility, sight-singing foundation, staying in tune",
+      "how": "Sing scale patterns with solf\u00e8ge syllables, associating each degree with its sound.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Scales (Major/Minor/Chromatic)",
+      "category": "Finger & Hand Technique",
+      "instrument": "All instruments",
+      "primary": "Finger agility, evenness, key familiarity",
+      "secondary": "Intonation, muscle memory for repertoire patterns, rhythm evenness",
+      "how": "Play scales in all keys, expanding octaves and tempos; the foundational pattern vocabulary of Western music.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Arpeggios / Broken Chords",
+      "category": "Finger & Hand Technique",
+      "instrument": "All instruments",
+      "primary": "Finger patterns with skips; chord-shape fluency",
+      "secondary": "Jump shifts (strings), chord recognition, hand flexibility",
+      "how": "Play chord tones (1-3-5-8) ascending/descending across octaves in all keys.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Thirds and Interval Studies",
+      "category": "Finger & Hand Technique",
+      "instrument": "Winds, piano, strings",
+      "primary": "Finger coordination on non-stepwise motion",
+      "secondary": "Intonation of intervals, evenness",
+      "how": "Play scales in broken thirds (or other intervals) through all keys.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Hanon Exercises (The Virtuoso Pianist)",
+      "category": "Finger & Hand Technique",
+      "instrument": "Piano",
+      "primary": "Finger strength, independence, agility, precision",
+      "secondary": "Wrist flexibility, hand symmetry; note: debated by some pedagogues \u2014 use with good form",
+      "how": "60 patterned five-finger and passage exercises repeated up and down the keyboard.",
+      "difficulty": "Beginner\u2013Intermediate"
+    },
+    {
+      "exercise": "Czerny Etudes (Op. 599/139/299/740)",
+      "category": "Finger & Hand Technique",
+      "instrument": "Piano",
+      "primary": "Targeted technique: velocity, articulation, hand coordination",
+      "secondary": "Musicality bridge from exercises to repertoire; each etude targets a specific pianistic problem",
+      "how": "Progressive studies from five-finger patterns to virtuoso velocity work.",
+      "difficulty": "Beginner\u2013Advanced"
+    },
+    {
+      "exercise": "Five-Finger Patterns",
+      "category": "Finger & Hand Technique",
+      "instrument": "Piano",
+      "primary": "Finger independence and evenness in fixed position",
+      "secondary": "Beginner hand-shape foundation",
+      "how": "Repeat 5-note patterns in one hand position with even tone and rhythm.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Schradieck Left-Hand Patterns",
+      "category": "Finger & Hand Technique",
+      "instrument": "Violin/viola/cello",
+      "primary": "Left-hand finger speed and evenness in one position",
+      "secondary": "Rhythmic playing, warm-up structure",
+      "how": "Rapid patterned finger exercises within a single position, focusing on even sound.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "CAGED / Fretboard Arpeggio Drills",
+      "category": "Finger & Hand Technique",
+      "instrument": "Guitar",
+      "primary": "Fretboard knowledge; chord-shape technique",
+      "secondary": "Improvisation vocabulary, position linking",
+      "how": "Play major/minor arpeggio shapes through the five CAGED positions, root to root.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Single Tonguing on One Note",
+      "category": "Articulation",
+      "instrument": "Winds, brass",
+      "primary": "Clean attack; tongue releases (not stops) the air",
+      "secondary": "Consistent starts, articulation speed base",
+      "how": "Repeat 'tah'/'dah' attacks on one pitch with steady air; the air is interrupted, never stopped.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Double Tonguing (Ta-Ka)",
+      "category": "Articulation",
+      "instrument": "Winds, brass",
+      "primary": "Fast re-articulation beyond single-tongue speed",
+      "secondary": "Strengthens back-of-tongue 'K'; also cleans up single tonguing",
+      "how": "Alternate tip ('ta') and back ('ka') strokes; isolate 'ka-ka-ka' first, build from ~60 BPM prioritizing evenness.",
+      "difficulty": "Advanced"
+    },
+    {
+      "exercise": "Triple Tonguing (Ta-Ta-Ka)",
+      "category": "Articulation",
+      "instrument": "Winds, brass",
+      "primary": "Fast triplet articulation",
+      "secondary": "Evenness across syllables",
+      "how": "Ta-ta-ka (or ta-ka-ta) patterns for rapid triplet passages (Arban).",
+      "difficulty": "Advanced"
+    },
+    {
+      "exercise": "Staccato / Note-Length Studies",
+      "category": "Articulation",
+      "instrument": "All instruments",
+      "primary": "Note length and release control",
+      "secondary": "Style differentiation (punchy vs legato vs breath attack)",
+      "how": "Play patterns varying articulation length and attack type on repeated pitches and scales.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Accent & Dynamic Attack Studies",
+      "category": "Articulation",
+      "instrument": "All instruments",
+      "primary": "Attack strength control independent of tempo",
+      "secondary": "Expressive articulation vocabulary",
+      "how": "Practice accented vs unaccented attacks in patterns (see Arban, Ray Still accent exercises).",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Open-String Long Bows",
+      "category": "String Technique",
+      "instrument": "Violin family",
+      "primary": "Bow control: speed, pressure, contact point consistency",
+      "secondary": "Tone production foundation, mental focus",
+      "how": "Draw 15\u201320 second bow strokes on open strings with absolutely consistent tone \u2014 no swells, wobbles, or fades.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "D\u00e9tach\u00e9 / Legato Bowing Drills",
+      "category": "String Technique",
+      "instrument": "Violin family",
+      "primary": "Smooth bow changes; connected vs separated strokes",
+      "secondary": "Even tone through direction changes",
+      "how": "Alternate long separate strokes (d\u00e9tach\u00e9) and multi-note slurred strokes (legato) on scales (Wohlfahrt, Mazas).",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Martel\u00e9 Practice at the Tip",
+      "category": "String Technique",
+      "instrument": "Violin family",
+      "primary": "Pinch-release attack control; finger dexterity",
+      "secondary": "Percussive articulation, right-hand finesse",
+      "how": "Short 'hammered' strokes with full pressure release between notes, in the upper third of the bow.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Spiccato / Bounce Stroke Drills",
+      "category": "String Technique",
+      "instrument": "Violin family",
+      "primary": "Controlled off-string bouncing",
+      "secondary": "Light fast articulation, relaxed grip",
+      "how": "Let the bow's natural elasticity bounce at the balance point; control height and speed of bounce.",
+      "difficulty": "Advanced"
+    },
+    {
+      "exercise": "Contact Point (Sul Tasto \u2194 Ponticello) Slides",
+      "category": "String Technique",
+      "instrument": "Violin family",
+      "primary": "Tone color control; contact point awareness",
+      "secondary": "Dynamic/timbre palette expansion",
+      "how": "Slowly slide the bow's contact point between fingerboard and bridge while keeping tone controlled.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Slow Shifting Exercises (Glide Shifts)",
+      "category": "String Technique",
+      "instrument": "Violin family",
+      "primary": "Accurate position changes; arm-led shifting",
+      "secondary": "Ear-targeting of destination pitch, relaxed left arm",
+      "how": "Shift slowly between positions with the bow 'pulling' the shift; only shift once the destination is heard mentally.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Vibrato Isolation Drills (Knocking Motion)",
+      "category": "String Technique",
+      "instrument": "Violin family",
+      "primary": "Wrist/arm/finger vibrato motion; pitch-stable oscillation",
+      "secondary": "Expressive warmth, relaxed first knuckle",
+      "how": "Practice the knocking/rocking motion with metronome, wrist moving backward from neutral; add bow later.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Double Stops & Drone Intonation",
+      "category": "String Technique",
+      "instrument": "Violin family",
+      "primary": "Intonation against a reference; hand frame",
+      "secondary": "Chordal playing, harmonic hearing",
+      "how": "Play scales against an open-string drone or in double stops, tuning each note by ear.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Single Stroke Roll",
+      "category": "Rhythm & Percussion",
+      "instrument": "Drums/percussion",
+      "primary": "Hand-to-hand evenness; speed with control",
+      "secondary": "Timing, equal hand development",
+      "how": "Alternate R-L strokes evenly in time and volume; the foundation of all sticking.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Double Stroke Roll",
+      "category": "Rhythm & Percussion",
+      "instrument": "Drums/percussion",
+      "primary": "Rebound control; two even strokes per hand",
+      "secondary": "Speed, smooth rolls, finger control on the second stroke",
+      "how": "RR-LL patterns; wrist for stroke one, fingers for stroke two, keeping both equal in volume.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Paradiddle (and Variations)",
+      "category": "Rhythm & Percussion",
+      "instrument": "Drums/percussion",
+      "primary": "Hand independence & coordination; lead-hand switching",
+      "secondary": "Ambidexterity, groove/fill vocabulary",
+      "how": "RLRR-LRLL combines singles and doubles; naturally alternates leading hands. Extend with double/triple paradiddles.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Flams & Drags",
+      "category": "Rhythm & Percussion",
+      "instrument": "Drums/percussion",
+      "primary": "Grace-note control; dynamic contrast within strokes",
+      "secondary": "Texture, snare accent vocabulary",
+      "how": "A soft grace note placed just before a primary stroke (flam) or double grace notes (drag).",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Rudiments with Metronome (all 40)",
+      "category": "Rhythm & Percussion",
+      "instrument": "Drums/percussion; useful concept for all",
+      "primary": "Timing; subdivision accuracy (8ths, 16ths, triplets)",
+      "secondary": "Internal clock, stamina, muscle memory",
+      "how": "Practice rudiments to a click at specific note values, increasing tempo only when perfect.",
+      "difficulty": "All levels"
+    },
+    {
+      "exercise": "Limb Independence Ostinatos",
+      "category": "Rhythm & Percussion",
+      "instrument": "Drum set",
+      "primary": "Four-limb independence",
+      "secondary": "Polyrhythm capability, groove complexity",
+      "how": "Hold a foot ostinato (e.g., samba) while playing rudiments/patterns over top with the hands.",
+      "difficulty": "Advanced"
+    },
+    {
+      "exercise": "Clapping/Tapping Rhythm Along to Music",
+      "category": "Rhythm & Percussion",
+      "instrument": "All musicians",
+      "primary": "Beat perception; rhythm imitation",
+      "secondary": "Timing sense, subdivision feel",
+      "how": "Tap or clap the beat and mimic rhythmic patterns from recordings, from slow to complex.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Interval Recognition Drills",
+      "category": "Ear Training & Musicianship",
+      "instrument": "All musicians",
+      "primary": "Identifying pitch distances by ear (relative pitch)",
+      "secondary": "Sight-singing, transcription, improvisation, theory made audible",
+      "how": "Identify played intervals (often via reference songs, e.g., 'Amazing Grace' = perfect 4th); progress from seconds/thirds to full range.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Pitch Matching / Call-and-Response",
+      "category": "Ear Training & Musicianship",
+      "instrument": "Voice, all musicians",
+      "primary": "Hearing a note and reproducing it accurately",
+      "secondary": "Audiation (hearing notes in the head), self-correction",
+      "how": "Play/hear a note or short melody and sing or play it back by ear.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Melodic Dictation / Transcription",
+      "category": "Ear Training & Musicianship",
+      "instrument": "All musicians",
+      "primary": "Converting heard melodies to notes/notation",
+      "secondary": "Interval + rhythm integration, playing by ear",
+      "how": "Transcribe 2\u20134 note melodies by ear, expanding to full phrases; start stepwise in C major.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Chord Quality Recognition",
+      "category": "Ear Training & Musicianship",
+      "instrument": "All musicians",
+      "primary": "Hearing major/minor/dim/aug and progressions",
+      "secondary": "Harmony understanding, accompaniment by ear, improvisation",
+      "how": "Identify chord qualities and progressions in isolation and in real songs.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Sight-Singing with Solf\u00e8ge",
+      "category": "Ear Training & Musicianship",
+      "instrument": "Voice, all musicians",
+      "primary": "Converting written notation to accurate pitch",
+      "secondary": "Interval fluency, notation reading, audiation",
+      "how": "Sing unfamiliar melodies at sight using solf\u00e8ge, checking intervals against the trained ear.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Singing Over a Drone",
+      "category": "Ear Training & Musicianship",
+      "instrument": "All musicians",
+      "primary": "Fine intonation; hearing pitch relationships against a fixed reference",
+      "secondary": "Just intonation awareness, pitch stability",
+      "how": "Sustain and sing scale degrees/intervals against a held drone pitch, tuning by ear.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Rhythm Recognition & Dictation",
+      "category": "Ear Training & Musicianship",
+      "instrument": "All musicians",
+      "primary": "Instantly identifying rhythmic patterns and subdivisions",
+      "secondary": "Time signatures, polyrhythms (esp. drummers)",
+      "how": "Hear and notate/clap back rhythmic patterns of increasing complexity.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Long Tones with Tuner/Drone",
+      "category": "Intonation & Tuning",
+      "instrument": "Winds, brass, strings, voice",
+      "primary": "Pitch stability and centering on each note",
+      "secondary": "Knowledge of instrument's pitch tendencies, embouchure/air consistency",
+      "how": "Sustain each note against a tuner or drone, learning which notes run sharp/flat and how to adjust.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Slow Scales with Drone",
+      "category": "Intonation & Tuning",
+      "instrument": "All pitched instruments",
+      "primary": "Interval tuning within a key",
+      "secondary": "Ear-hand/embouchure feedback loop",
+      "how": "Play scales slowly against a tonic drone, tuning every degree by ear.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Tuning Open Strings in Fifths",
+      "category": "Intonation & Tuning",
+      "instrument": "Violin family",
+      "primary": "Hearing pure (just) fifths",
+      "secondary": "Daily intonation reference, beat-listening",
+      "how": "Bow adjacent string pairs and tune until the fifth is beatless.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Range Extension Ladders",
+      "category": "Range, Dynamics & Expression",
+      "instrument": "Voice, brass, winds",
+      "primary": "Gradual safe expansion of high/low range",
+      "secondary": "Register connection, confidence at extremes",
+      "how": "Expanding patterns (scales/slurs/glides) that add a semitone at the extremes only when comfortable.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Two-Octave Pitch Glides",
+      "category": "Range, Dynamics & Expression",
+      "instrument": "Voice",
+      "primary": "Register connection across a wide span",
+      "secondary": "Fewer voice cracks, smooth transitions, flexibility",
+      "how": "Slide from a low note up two octaves and back, keeping tone smooth and even throughout.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Dynamic Terracing on Scales",
+      "category": "Range, Dynamics & Expression",
+      "instrument": "All instruments",
+      "primary": "Playing identical material at pp\u2192ff with equal quality",
+      "secondary": "Volume-independent tone and intonation",
+      "how": "Repeat scales/passages at each dynamic level, keeping tone, pitch, and tempo constant.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Phrasing & Breath-Mapping in Repertoire",
+      "category": "Range, Dynamics & Expression",
+      "instrument": "Winds, brass, voice",
+      "primary": "Planning breaths/bow to serve musical phrases",
+      "secondary": "Expression, endurance, musical shape",
+      "how": "Mark and practice where each breath (or bow) occurs so phrases are shaped intentionally.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Structured Daily Warm-Up Routine",
+      "category": "Warm-Up & Physical Health",
+      "instrument": "All musicians",
+      "primary": "Safe muscle activation before demanding work",
+      "secondary": "Injury prevention, consistency, mental focus",
+      "how": "Sequence gentle exercises (breathing, easy tones/strokes, flexibility) before repertoire, like an athlete's warm-up.",
+      "difficulty": "All levels"
+    },
+    {
+      "exercise": "Vocal Cool-Downs (Descending Hums/Sirens)",
+      "category": "Warm-Up & Physical Health",
+      "instrument": "Voice",
+      "primary": "Reducing vocal fold swelling after singing",
+      "secondary": "Vocal longevity, recovery between performances",
+      "how": "Gentle descending hums and sirens after heavy singing restore balance to the folds.",
+      "difficulty": "Beginner"
+    },
+    {
+      "exercise": "Respiratory Muscle Training (RMT)",
+      "category": "Warm-Up & Physical Health",
+      "instrument": "Winds, brass, voice",
+      "primary": "Strengthening breathing muscles",
+      "secondary": "Stamina for long performances; studied formally in brass pedagogy",
+      "how": "Structured resistance-breathing programs (devices or exercises) to strengthen inspiratory/expiratory muscles.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "exercise": "Posture & Tension Checks",
+      "category": "Warm-Up & Physical Health",
+      "instrument": "All musicians",
+      "primary": "Eliminating unwarranted tension (shoulders, hands, jaw)",
+      "secondary": "Freedom of motion, sound quality, injury prevention",
+      "how": "Regularly scan and release tension in shoulders, neck, wrists, and jaw while playing; watch hands/arms during hard passages.",
+      "difficulty": "All levels"
+    }
+  ],
+  "woodwind": [
+    {
+      "id": "W1",
+      "exercise": "Register-Connected Long Tones",
+      "instrument": "All woodwinds",
+      "primary": "Air support; register evenness; voicing consistency",
+      "secondary": "Phrase endurance, intonation (\u00b15 cents target), tone color unity",
+      "how": "Chromatic long tones organized by register, then interval slurs across the register breaks (fifths, octaves, twelfths) with identical tone on both sides.",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "W2",
+      "exercise": "Vowel / Tongue-Position Voicing Exploration",
+      "instrument": "All woodwinds",
+      "primary": "Lingual awareness; oral cavity control",
+      "secondary": "Fixes flat throat tones, thin high registers, biting habits",
+      "how": "Shift between vowel shapes (ah/ee/oo) on a held note with frozen embouchure/fingers; find the most resonant tongue position per register. Tongue = rudder for the air.",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "W3",
+      "exercise": "Dynamic Long Tones Without Pitch Drift",
+      "instrument": "All woodwinds",
+      "primary": "Dynamic control with stable pitch",
+      "secondary": "Air/voicing (not jaw) correction habit",
+      "how": "mf straight tones, decrescendos, and swells against a tuner; correct pitch drift with air speed and voicing, never by biting.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "W4",
+      "exercise": "Finger Legato / Slow Fingers Under Fast Air",
+      "instrument": "All woodwinds",
+      "primary": "Finger synchronization; air-finger independence",
+      "secondary": "Seamless scale sound, clean transitions",
+      "how": "Slur slow scales with unbroken air; fingers move close to keys and precisely together; isolate problem transitions in both directions.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "W5",
+      "exercise": "Headjoint-Only Exercises",
+      "instrument": "Flute",
+      "primary": "Embouchure formation; air-jet focus and direction",
+      "secondary": "Tone isolated from fingerings; daily calibration",
+      "how": "Sustain and bend pitches on the headjoint alone; cover the open end for lower pitch; play simple tunes.",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "W6",
+      "exercise": "Taffanel & Gaubert 17 Daily Exercises",
+      "instrument": "Flute",
+      "primary": "Complete finger facility in all keys; evenness",
+      "secondary": "Union of technique with tone (French school standard)",
+      "how": "Rotate daily slices of the 17 Grands Exercices (esp. E.J. 1 and 4) through all keys with rotating articulations and dynamics.",
+      "difficulty": "Intermediate\u2013Advanced"
+    },
+    {
+      "id": "W7",
+      "exercise": "Flute Harmonics Studies",
+      "instrument": "Flute",
+      "primary": "Air-speed/direction control; high-register ease",
+      "secondary": "Aperture flexibility, unpinched third octave, tonal color",
+      "how": "Produce the harmonic series on low fingerings by air changes only; slur between partials; match normal fingerings to the harmonics' focused core.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "W8",
+      "exercise": "Whistle Tones",
+      "instrument": "Flute",
+      "primary": "Ultra-fine air control at the threshold of sound",
+      "secondary": "Aperture precision, relaxation, pianissimo stability",
+      "how": "With the slowest possible air, produce and hold faint whistle tones on low fingerings; select partials deliberately.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "W9",
+      "exercise": "Flute Vibrato Studies (Measured Pulses)",
+      "instrument": "Flute",
+      "primary": "Controlled, variable air vibrato",
+      "secondary": "Vibrato as an expressive choice, not a tic",
+      "how": "Pulse the air in measured values (quarters\u2192sixteenths at \u2669=60) with open throat and still jaw; then free the vibrato with chosen speed/depth.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "W10",
+      "exercise": "Twelfth (Register) Slurs \u2014 With/Without Register Key",
+      "instrument": "Clarinet",
+      "primary": "Register connection across the break; voicing precision",
+      "secondary": "Squeak elimination, air-speed control",
+      "how": "Slur chalumeau notes up a twelfth to clarion keeping embouchure fixed, tongue rising to 'ee'; advanced version overblows without the register key.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "W11",
+      "exercise": "Clarinet Partial Long Tones (Controlled Squeaks)",
+      "instrument": "Clarinet",
+      "primary": "Stable voicing; core tone warmth and focus",
+      "secondary": "Intonation stability, altissimo on-ramp (ICA sequence)",
+      "how": "Deliberately sound the 3rd (then 5th) partial on low fingerings; sustain as long tones with attacks and dynamics; alternate with regular fingerings.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "W12",
+      "exercise": "Break Crossing / Right-Hand-Down Drills",
+      "instrument": "Clarinet",
+      "primary": "Seamless crossings over the break",
+      "secondary": "Efficient hand position, finger-air independence",
+      "how": "Drill throat-to-clarion crossings with synchronized fingers; pre-place right hand during throat tones; practice both directions.",
+      "difficulty": "Beginner\u2013Intermediate"
+    },
+    {
+      "id": "W13",
+      "exercise": "Chromatic Pinky Alternation Studies",
+      "instrument": "Clarinet",
+      "primary": "Independent, planned little-finger technique",
+      "secondary": "Smooth low-register/clarion passagework",
+      "how": "Drill left/right pinky alternatives for E/B, F/C, F#/C#; never same pinky twice in a row when avoidable; plan pinky choreography.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "W14",
+      "exercise": "Mouthpiece-Alone Pitch Exercises",
+      "instrument": "Saxophone",
+      "primary": "Embouchure pressure calibration; oral-cavity flexibility",
+      "secondary": "Intonation diagnosis (bite=sharp, slack=flat), ear training",
+      "how": "Check mouthpiece-alone pitch vs targets (alto ~A, tenor ~G); bend pitch up/down with jaw and tongue; play scales on mouthpiece alone.",
+      "difficulty": "Beginner\u2013Intermediate"
+    },
+    {
+      "id": "W15",
+      "exercise": "Saxophone Overtone Series (Rascher/Allard)",
+      "instrument": "Saxophone",
+      "primary": "Voicing mastery; resonant overtone-rich core tone",
+      "secondary": "Altissimo foundation, audiation, intonation with less embouchure tension",
+      "how": "Sound the overtone series on low Bb/B/C fingerings by voicing alone; slur between partials; match regular fingerings to the overtones' resonance.",
+      "difficulty": "Intermediate\u2013Advanced"
+    },
+    {
+      "id": "W16",
+      "exercise": "Altissimo Development",
+      "instrument": "Saxophone",
+      "primary": "Extended upper range with control",
+      "secondary": "In-tune, multi-dynamic, connected extreme register",
+      "how": "After overtone fluency: learn altissimo fingerings one at a time, approached slurred from below, from above, and attacked cold; hear before playing.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "W17",
+      "exercise": "Subtone & Low-Register Pianissimo",
+      "instrument": "Saxophone",
+      "primary": "Low-register dynamic control; soft attacks",
+      "secondary": "Tonal color palette (ballad sound)",
+      "how": "Relax jaw/lower lip and warm the air for breathy subtone on low notes; practice clean pianissimo attacks; alternate subtone and full tone.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "W18",
+      "exercise": "Reed-Alone Exercises (Crow, Peep, Bend)",
+      "instrument": "Oboe, bassoon",
+      "primary": "Embouchure strength/flexibility; pitch control at the source",
+      "secondary": "Reed evaluation (crow test), wind-embouchure coordination",
+      "how": "Crow the reed as a diagnostic; sustain and articulate pitches on the reed alone vs a drone; bend pitch by rolling lips/reed, never biting.",
+      "difficulty": "Beginner\u2013Advanced"
+    },
+    {
+      "id": "W19",
+      "exercise": "Oboe Octave Slurs & Embouchure Glissando",
+      "instrument": "Oboe",
+      "primary": "Register connection; roll-in (not bite) adjustment",
+      "secondary": "Legato, fine intonation, endurance protection",
+      "how": "Slur middle-register notes up the octave and back at \u2669=60, rolling in with more air support; slide half steps by lip roll alone.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "W20",
+      "exercise": "Exhale-First Breathing Practice",
+      "instrument": "Oboe, bassoon",
+      "primary": "Stale-air cycling; back-pressure comfort",
+      "secondary": "Prevents dizziness; endurance on high-resistance instruments",
+      "how": "Practice the two-stage breath (exhale stale air, then inhale) with a straw and in marked passages; learn your stale-air budget.",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "W21",
+      "exercise": "Bassoon Half-Hole & Flicking Drills",
+      "instrument": "Bassoon",
+      "primary": "Crack-free middle-upper register; LH thumb choreography",
+      "secondary": "Reliable exposed entrances",
+      "how": "Drill the index-finger roll for F#/G/G# (different openings each) and the thumb flick keys for A\u2013C at note onsets; 10 clean repetitions.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "W22",
+      "exercise": "Double-Reed Vibrato (Measured Air Pulses)",
+      "instrument": "Oboe, bassoon",
+      "primary": "Controlled air-driven vibrato",
+      "secondary": "Selectable speed/intensity; still jaw",
+      "how": "Pulse air support in measured values (quarters\u2192quintuplets at \u2669=60) with chin still (hand-under-chin check); then shape freely by register and style.",
+      "difficulty": "Intermediate"
+    }
+  ],
+  "ability_index": {
+    "Breath support & lung capacity": [
+      "Long Tones",
+      "Diaphragmatic Breathing",
+      "Timed Air Release",
+      "Straw/Pursed-Lip Resistance",
+      "Breathing Bag",
+      "RMT"
+    ],
+    "Continuous/extended phrasing": [
+      "Circular Breathing",
+      "Interval Breathing",
+      "Phrasing & Breath-Mapping"
+    ],
+    "Tone quality & consistency": [
+      "Long Tones",
+      "Mouthpiece Buzzing",
+      "Open-String Long Bows",
+      "Humming",
+      "Vowel Shaping"
+    ],
+    "Embouchure / mouth control": [
+      "Lip Slurs",
+      "Overtone Series Studies",
+      "Mouthpiece & Free Buzzing",
+      "Flute Harmonics",
+      "Lip Trills",
+      "Pedal Tones"
+    ],
+    "Range extension": [
+      "Lip Slurs",
+      "Overtone Studies",
+      "Range Ladders",
+      "Two-Octave Pitch Glides",
+      "Sirens",
+      "Nay/Gee Twang"
+    ],
+    "Register blending (voice)": [
+      "Sirens/Pitch Glides",
+      "Lip Trills (Vocal)",
+      "Straw Phonation",
+      "Two-Octave Glides"
+    ],
+    "Pitch accuracy / intonation": [
+      "Long Tones with Tuner/Drone",
+      "Slow Scales with Drone",
+      "Singing Over a Drone",
+      "Double Stops",
+      "Solf\u00e8ge",
+      "Tuning in Fifths"
+    ],
+    "Finger agility & independence": [
+      "Scales",
+      "Arpeggios",
+      "Thirds",
+      "Hanon",
+      "Czerny",
+      "Five-Finger Patterns",
+      "Schradieck",
+      "CAGED Drills"
+    ],
+    "Articulation clarity & speed": [
+      "Single Tonguing",
+      "Double Tonguing (Ta-Ka)",
+      "Triple Tonguing",
+      "Staccato Studies",
+      "Accent Studies",
+      "Martel\u00e9",
+      "Tongue Twisters"
+    ],
+    "Bow control & string tone": [
+      "Open-String Long Bows",
+      "D\u00e9tach\u00e9/Legato Drills",
+      "Contact Point Slides",
+      "Spiccato",
+      "Martel\u00e9 at the Tip"
+    ],
+    "Shifting & left-hand accuracy (strings)": [
+      "Slow Shifting Exercises",
+      "Schradieck Patterns",
+      "Arpeggios (jump shifts)",
+      "Double Stops"
+    ],
+    "Vibrato & expressiveness": [
+      "Vibrato Isolation Drills",
+      "Messa di Voce",
+      "Crescendo\u2013Decrescendo Long Tones",
+      "Dynamic Terracing"
+    ],
+    "Timing & rhythm": [
+      "Rudiments with Metronome",
+      "Single/Double Stroke Rolls",
+      "Clapping/Tapping to Music",
+      "Rhythm Dictation"
+    ],
+    "Hand/limb coordination": [
+      "Paradiddles",
+      "Flams & Drags",
+      "Limb Independence Ostinatos",
+      "Hanon",
+      "Czerny (hand coordination etudes)"
+    ],
+    "Dynamic control": [
+      "Messa di Voce",
+      "Crescendo\u2013Decrescendo Long Tones",
+      "Dynamic Terracing",
+      "Rudiments at varied volumes"
+    ],
+    "Ear / listening skills": [
+      "Interval Recognition",
+      "Pitch Matching",
+      "Melodic Dictation",
+      "Chord Recognition",
+      "Sight-Singing",
+      "Rhythm Dictation"
+    ],
+    "Relaxation, health & recovery": [
+      "Yawn-Sigh",
+      "Pedal Tones",
+      "Vocal Cool-Downs",
+      "Straw Phonation (SOVT)",
+      "Posture & Tension Checks",
+      "Warm-Up Routine"
+    ]
+  },
+  "categories": {
+    "Breath & Air Control": {
+      "develops": "The air supply engine: intake capacity, diaphragm engagement, and steady, controlled release that powers tone in winds, brass, and voice.",
+      "n": 7
+    },
+    "Tone & Embouchure": {
+      "develops": "The vibrating interface: lip/facial muscle strength, flexibility, and fine oral-cavity control that shapes sound quality and range.",
+      "n": 8
+    },
+    "Vocal Technique": {
+      "develops": "Voice-specific coordination: vocal fold efficiency, resonance placement, register blending, and articulation.",
+      "n": 11
+    },
+    "Finger & Hand Technique": {
+      "develops": "Motor skill for pitched instruments: agility, independence, strength, evenness, and pattern fluency (scales, arpeggios, etudes).",
+      "n": 8
+    },
+    "Articulation": {
+      "develops": "How notes begin and end: tongue strokes and attack types that define clarity, style, and speed.",
+      "n": 5
+    },
+    "String Technique": {
+      "develops": "Bow-arm control (tone engine of strings) plus left-hand shifting, vibrato, and intonation skills.",
+      "n": 8
+    },
+    "Rhythm & Percussion": {
+      "develops": "Timing, subdivision, stick control, and limb coordination \u2014 the internal clock.",
+      "n": 7
+    },
+    "Ear Training & Musicianship": {
+      "develops": "The listening brain: recognizing intervals, chords, and rhythms; connecting notation, sound, and instrument.",
+      "n": 7
+    },
+    "Intonation & Tuning": {
+      "develops": "Playing in tune: pitch centering, tendency awareness, and tuning by ear against references.",
+      "n": 3
+    },
+    "Range, Dynamics & Expression": {
+      "develops": "Extending usable range and volume palette while keeping quality constant; shaping phrases musically.",
+      "n": 4
+    },
+    "Warm-Up & Physical Health": {
+      "develops": "Safe preparation, recovery, and injury prevention \u2014 treating musicians as athletes of fine motor skill.",
+      "n": 4
+    }
+  }
+}
