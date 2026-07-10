@@ -53,6 +53,7 @@ def extract(path_or_y, sr=SR, max_seconds=45):
         y = y[: max_seconds * sr]
 
     chroma = librosa.feature.chroma_stft(y=y, sr=sr, hop_length=HOP)
+    chroma = np.nan_to_num(chroma, nan=0.0, posinf=0.0, neginf=0.0)
 
     # fast pitch: yin (no probabilistic matrix); gate voicing by energy
     f0 = librosa.yin(y, sr=sr, fmin=float(librosa.note_to_hz("C2")),
@@ -66,6 +67,15 @@ def extract(path_or_y, sr=SR, max_seconds=45):
     ok = voiced & (f0 > 0)
     cents[ok] = 1200.0 * np.log2(f0[ok] / A4)
     cents = _roll_median(cents, 5)           # kill isolated octave jumps
+    # octave-error correction: snap each note to the octave nearest the local
+    # melodic contour (yin sometimes reports f0*2 or f0/2 on real audio)
+    ref = _roll_median(cents, 15)
+    for i in range(len(cents)):
+        if not np.isnan(cents[i]) and not np.isnan(ref[i]):
+            while cents[i] - ref[i] > 600:
+                cents[i] -= 1200
+            while cents[i] - ref[i] < -600:
+                cents[i] += 1200
 
     db = 20.0 * np.log10(rms + 1e-6)
     db = db - np.nanmedian(db)
@@ -89,6 +99,9 @@ def extract(path_or_y, sr=SR, max_seconds=45):
 
 def warp_map(ref_chroma, other_chroma):
     """DTW map: reference-frame index -> list of matched other-frame indices."""
+    # +eps so silent (all-zero) frames do not make cosine distance NaN
+    ref_chroma = np.nan_to_num(ref_chroma) + 1e-6
+    other_chroma = np.nan_to_num(other_chroma) + 1e-6
     _, wp = librosa.sequence.dtw(X=ref_chroma, Y=other_chroma, metric="cosine")
     wp = wp[::-1]
     m = {}
