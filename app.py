@@ -148,3 +148,22 @@ async def analyze(student: UploadFile = File(...),
                 os.remove(p)
             except OSError:
                 pass
+
+
+@app.on_event("startup")
+def _warmup():
+    """Compile/load the heavy audio libraries in the background at boot, so the
+    first real request doesn't pay the one-time warm-up cost."""
+    import threading
+
+    def run():
+        try:
+            from perf_synth import render
+            a = extract(render(bpm=66, seed=1))
+            b = extract(render(bpm=66, seed=2))
+            cor = build_corridor([a, b])
+            CL.classify(a, cor, [a, b])
+        except Exception:
+            pass
+
+    threading.Thread(target=run, daemon=True).start()
