@@ -10,7 +10,9 @@ Each is mapped to specific exercises drawn from the database. Woodwind-specific
 import json
 import os
 
-_DB = json.load(open(os.path.join(os.path.dirname(__file__), "exercise_database.json")))
+with open(os.path.join(os.path.dirname(__file__), "exercise_database.json"),
+          encoding="utf-8") as _f:
+    _DB = json.load(_f)
 _BY_NAME = {e["exercise"]: e for e in _DB["exercises"]}
 _BY_WID = {w["id"]: w for w in _DB["woodwind"]}
 
@@ -22,6 +24,10 @@ PROBLEM_MAP = {
     ("tempo", ""):      ["Rudiments with Metronome (all 40)",
                          "Clapping/Tapping Rhythm Along to Music"],
     ("rhythm", ""):     ["Rudiments with Metronome (all 40)",
+                         "Clapping/Tapping Rhythm Along to Music"],
+    # local rushing/dragging inside the piece, as opposed to a wrong overall tempo
+    ("timing", ""):     ["Metronome Displacement (Off-beat Practice)",
+                         "Rudiments with Metronome (all 40)",
                          "Clapping/Tapping Rhythm Along to Music"],
     ("dynamics", ""):   ["Messa di Voce", "Crescendo–Decrescendo Long Tones",
                          "Dynamic Terracing on Scales"],
@@ -47,14 +53,15 @@ WOODWIND_BOOST = {
     "tone":       ["W1", "W15"],
     "timbre":     ["W2"],
     "evenness":   ["W4"],
+    "timing":     ["W4"],
     "vibrato":    ["W9", "W22"],
 }
 WOODWINDS = ("flute", "clarinet", "sax", "saxophone", "oboe", "bassoon", "woodwind")
 # which woodwind vibrato exercise fits which instrument
 _VIB_BY_INST = {"flute": "W9", "oboe": "W22", "bassoon": "W22"}
 
-PRIORITY = {"intonation": 5, "tempo": 5, "rhythm": 5, "tone": 4, "timbre": 4,
-            "evenness": 3, "dynamics": 3, "vibrato": 2}
+PRIORITY = {"intonation": 5, "tempo": 5, "rhythm": 5, "timing": 5, "tone": 4,
+            "timbre": 4, "evenness": 3, "dynamics": 3, "vibrato": 2}
 
 
 def _direction(category, label):
